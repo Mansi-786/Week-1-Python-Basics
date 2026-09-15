@@ -1,0 +1,16 @@
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+city = input("Which city are you from? ")
+hobby = input("What is your favorite hobby? ")
+food = input("What is your favorite food? ")
+
+print("\n===================================")
+print("        WELCOME MESSAGE")
+print("===================================")
+
+print(f"Hello {name}! 👋")
+print("Welcome! It's great to know you.")
+print(f"You are {age} years old and you are from {city}.")
+print(f"Your favorite hobby is {hobby}.")
+print(f"And you love {food}!")
+print("Nice to meet you!")
